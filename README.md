@@ -20,6 +20,24 @@ To get started, dowload the starter code from blackboard ( it is just one index.
 
 We will not add any extra HTML elements, or our own CSS for this worksheet, we will alter the layout by only adding bootstrap classes.
 
+e.g.
+
+If I have a div html element
+
+```html
+<div>
+    
+</div>
+```
+
+If I wanted to add a container class to it, we would do the following
+
+```html
+<div class="container">
+    
+</div>
+```
+
 <div style="page-break-after: always"></div>
 
 ## Containers
@@ -131,11 +149,17 @@ You can see that we have an image and some text nested inside the `<header>` ele
 
 The image is large and displays at its full size ( we are using https://picsum.photos/ to give us random images)
 
-**- Add the class `img-fluid` to the image element.**
+**- Add the class `img-fluid` to the image element in the header.**
 
 The image should now scale to fit the the container.
 
 If you want to know more or are unsure how to do this, [check the documentation here](https://getbootstrap.com/docs/5.0/content/images/#responsive-images).
+
+you should now have:
+
+```html
+<img src="https://picsum.photos/1280/500" alt="lorem pixum image" class="img-fluid" />
+```
 
 
 
@@ -152,6 +176,14 @@ We can also just apply padding to the top by using `pt-` or bottom `pb-` .
 **- Add 3 units of padding to the top of the `<p>` element in the header.**
 
 You can learn [more about padding and margins here](https://getbootstrap.com/docs/5.0/utilities/spacing/).
+
+You should now have:
+
+```html
+<p class="pt-3">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus enim lacus, vel 	tincidunt tellus volutpat quis. Proin sagittis tellus at ullamcorper imperdiet.
+</p>
+```
 
 <div style="page-break-after: always"></div>
 
