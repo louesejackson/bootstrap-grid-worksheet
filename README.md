@@ -10,118 +10,17 @@ The first thing we need to do is download the starter code for this worksheet.
 
 I have based this on the starter template, replacing the bootstrap css and JavaScript links for you, and including a basic html structure for a very simple page. 
 
-To get started, make a new blank`index.html` file and open it in a text editor (I recommend Visual Studio Code), and copy and paste the following code into it:
+To get started, dowload the starter code from blackboard ( it is just one index.js file) and open it in a text editor (I recommend Visual Studio Code)
 
-```html
-<!doctype html>
-<html lang="en">
+**Save the file and take a quick look over the code.**
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.80.0">
-  <title>Starter Template · Bootstrap v5.0</title>
-
-  <!-- Bootstrap core CSS from a CDN, you will need to be online for this to work -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-    <style>
-      body {
-        padding: 5rem 0 7rem 0;
-      }
-    </style>
-
-</head>
-
-<body>
-
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      
-    <!-- Nav container -->
-    <div class="container-fluid">
-
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault"
-        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Main -->
-  <main>
-
-    <!-- Header -->
-    <header>
-      <div>
-        <img src="https://picsum.photos/1280/500" alt="lorem pixum image" />
-      </div>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus enim lacus, vel tincidunt tellus volutpat
-          quis. Proin sagittis tellus at ullamcorper imperdiet.
-        </p>
-      </div>
-    </header>
-
-    <!-- Boxes section -->
-    <section>
-      <div>
-        <h3>Box 1</h3>
-        <img src="https://picsum.photos/300/300?random=1" alt="lorem pixum image" />
-      </div>
-      <div>
-        <h3>Box 2</h3>
-        <img src="https://picsum.photos/300/300?random=2" alt="lorem pixum image" />
-      </div>
-      <div>
-        <h3>Box 3</h3>
-        <img src="https://picsum.photos/300/300?random=3" alt="lorem pixum image" />
-      </div>
-      <div>
-        <h3>Box 4</h3>
-        <img src="https://picsum.photos/300/300?random=4" alt="lorem pixum image" />
-      </div>
-    </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer >
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus enim lacus</p>
-  </footer>
-
-  <!-- bootstrap js bundle from a CDN, you will need to be online for this to work -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
-
-</body>
-
-</html>
-```
-
-**Save the file and take a quick look over what you have**
-
-**Open the index.html file on your web browser and take a quick look at how the code is currently displaying**
+**Open the index.html file on your web browser and take a quick look at how the code is currently displaying.**
 
 ## Bootstrap classes
 
 We will not add any extra HTML elements, or our own CSS for this worksheet, we will alter the layout by only adding bootstrap classes.
+
+<div style="page-break-after: always"></div>
 
 ## Containers
 
@@ -163,7 +62,7 @@ you should now have:
 
 You can read more [about containers here](https://getbootstrap.com/docs/5.0/layout/containers/)
 
-
+<div style="page-break-after: always"></div>
 
 ## Breakpoints
 
@@ -184,23 +83,25 @@ This is the foundation of how Bootstrap helps you make a responsive website.
 
 You can read [more about breakpoints here](https://getbootstrap.com/docs/5.0/layout/breakpoints/).
 
+<div style="page-break-after: always"></div>
+
 ## Wireframes
 
 For the page we are making I have created 3 wireframes to show the placement of all the elements on the page at different breakpoints. We will refer back to these for the rest of the work sheet.
 
-#### Small and X-small 
+##### Small and X-small 
 
-![small wireframe](small.png) 
+<img src="small.png" alt="small wireframe" style="zoom: 50%;" /> 
 
-#### Medium
+##### Medium
 
-![Medium Wireframe](medium.png) 
+<img src="medium.png" alt="Medium Wireframe" style="zoom:50%;" /> 
+<div style="page-break-after: always"></div>
+##### Large and above
 
-#### Large and above
+<img src="large.png" alt="Large wireframe" style="zoom:50%;" /> 
 
-![Large wireframe](large.png) 
-
-
+<div style="page-break-after: always"></div>
 
 ## Navbar
 
@@ -252,7 +153,7 @@ We can also just apply padding to the top by using `pt-` or bottom `pb-` .
 
 You can learn [more about padding and margins here](https://getbootstrap.com/docs/5.0/utilities/spacing/).
 
-
+<div style="page-break-after: always"></div>
 
 ### Rows and Columns
 
@@ -296,7 +197,7 @@ You can see `md` here in the class name used to show this is a rule for medium s
 
 **- But why 12 and 6?**
 
-
+<div style="page-break-after: always"></div>
 
 ### 12 columns
 
@@ -328,7 +229,7 @@ HINT: Use -lg
 
 The small and medium layouts should still work.
 
-
+<div style="page-break-after: always"></div>
 
 ### More than 12 columns
 
@@ -400,7 +301,7 @@ HINT 1:`<div class="col-?">`
 
 HINT 2: they should all have the same number.
 
-
+<div style="page-break-after: always"></div>
 
 ### Hide Columns
 
@@ -456,25 +357,25 @@ The last thing to do is to set new columns sizes for large screen. The wireframe
 
 ​	`<div class="col-6 col-md-4 col-lg-?">`
 
-
+<div style="page-break-after: always"></div>
 
 ### Footer
 
 The very last thing to do is the footer.
 
-**Make the footer fill the with of the page by giving it the correct container class**
+**- Make the footer fill the with of the page by giving it the correct container class.**
 
 ​	HINT: https://getbootstrap.com/docs/5.0/layout/containers/#fluid-containers
 
-**Give it a top and bottom padding of 4**
+**- Give it a top and bottom padding of 4.**
 
 ​	HINT: https://getbootstrap.com/docs/5.0/utilities/spacing/
 
-**Fix the footer to the bottom of the screen**
+**- Fix the footer to the bottom of the screen.**
 
 ​	HINT: https://getbootstrap.com/docs/5.0/helpers/position/#fixed-bottom
 
-**Give it a background colour of `bg-light` and center the text using `text-center`**
+**- Give it a background colour of `bg-light` and center the text using `text-center`.**
 
 
 
@@ -484,7 +385,9 @@ You Have now successfully made a responsive web page only using Bootstrap css cl
 
 Give yourself a pat on the back.
 
-You can find more 
+You now know the basics of laying out a responsive website using Bootstrap.
+
+If you want to investigate further the [Bootstrap documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/) is a great place to start.
 
 
 
