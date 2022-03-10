@@ -10,7 +10,7 @@ The first thing we need to do is download the starter code for this worksheet.
 
 I have based this on the starter template, replacing the bootstrap css and JavaScript links for you, and including a basic html structure for a very simple page. 
 
-To get started, dowload the starter code from blackboard ( it is just one index.js file) and open it in a text editor (I recommend Visual Studio Code)
+To get started, dowload the starter code from blackboard ( it is just one index.html file) and open it in a text editor (I recommend Visual Studio Code)
 
 **Save the file and take a quick look over the code.**
 
