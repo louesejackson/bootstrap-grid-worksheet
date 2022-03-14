@@ -8,7 +8,7 @@ In this worksheet I will be showing you how to use the Bootstraps grid to layout
 
 The first thing we need to do is download the starter code for this worksheet.
 
-I have based this on a [starter template](https://getbootstrap.com/docs/5.0/examples/), replacing the bootstrap css and JavaScript links with cdn links for you, and including a basic html structure for a very simple page. 
+I have based this on a [starter template](https://getbootstrap.com/docs/5.1/examples/), replacing the bootstrap css and JavaScript links with cdn links for you, and including a basic html structure for a very simple page. 
 
 To get started, dowload the starter code from blackboard ( it is just one index.html file) and open it in a text editor (I recommend Visual Studio Code)
 
@@ -175,7 +175,7 @@ We can also just apply padding to the top by using `pt-` or bottom `pb-` .
 
 **- Add 3 units of padding to the top of the `<p>` element in the header.**
 
-You can learn [more about padding and margins here](https://getbootstrap.com/docs/5.0/utilities/spacing/).
+You can learn [more about padding and margins here](https://getbootstrap.com/docs/5.1/utilities/spacing/).
 
 You should now have:
 
@@ -393,15 +393,15 @@ The very last thing to do is the footer.
 
 **- Make the footer fill the with of the page by giving it the correct container class.**
 
-​	HINT: https://getbootstrap.com/docs/5.0/layout/containers/#fluid-containers
+​	HINT: https://getbootstrap.com/docs/5.1/layout/containers/#fluid-containers
 
 **- Give it a top and bottom padding of 4.**
 
-​	HINT: https://getbootstrap.com/docs/5.0/utilities/spacing/
+​	HINT: https://getbootstrap.com/docs/5.1/utilities/spacing/
 
 **- Fix the footer to the bottom of the screen.**
 
-​	HINT: https://getbootstrap.com/docs/5.0/helpers/position/#fixed-bottom
+​	HINT: https://getbootstrap.com/docs/5.1/helpers/position/#fixed-bottom
 
 **- Give it a background colour of `bg-light` and center the text using `text-center`.**
 
@@ -415,7 +415,7 @@ Give yourself a pat on the back.
 
 You now know the basics of laying out a responsive website using Bootstrap.
 
-If you want to investigate further the [Bootstrap documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/) is a great place to start.
+If you want to investigate further the [Bootstrap documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/) is a great place to start.
 
 
 
