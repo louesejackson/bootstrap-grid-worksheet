@@ -8,7 +8,7 @@ In this worksheet I will be showing you how to use the Bootstraps grid to layout
 
 The first thing we need to do is download the starter code for this worksheet.
 
-I have based this on the starter template, replacing the bootstrap css and JavaScript links for you, and including a basic html structure for a very simple page. 
+I have based this on a [starter template](https://getbootstrap.com/docs/5.0/examples/navbar-fixed/), replacing the bootstrap css and JavaScript links with cdn links for you, and including a basic html structure for a very simple page. 
 
 To get started, dowload the starter code from blackboard ( it is just one index.html file) and open it in a text editor (I recommend Visual Studio Code)
 
