@@ -8,7 +8,7 @@ In this worksheet I will be showing you how to use the Bootstraps grid to layout
 
 The first thing we need to do is download the starter code for this worksheet.
 
-I have based this on a [starter template](https://getbootstrap.com/docs/5.0/examples/navbar-fixed/), replacing the bootstrap css and JavaScript links with cdn links for you, and including a basic html structure for a very simple page. 
+I have based this on a [starter template](https://getbootstrap.com/docs/5.0/examples/), replacing the bootstrap css and JavaScript links with cdn links for you, and including a basic html structure for a very simple page. 
 
 To get started, dowload the starter code from blackboard ( it is just one index.html file) and open it in a text editor (I recommend Visual Studio Code)
 
@@ -78,7 +78,7 @@ you should now have:
 
 **- Change the width again to see how the main element now behaves differently.**
 
-You can read more [about containers here](https://getbootstrap.com/docs/5.0/layout/containers/)
+You can read more [about containers here](https://getbootstrap.com/docs/5.1/layout/containers/)
 
 <div style="page-break-after: always"></div>
 
@@ -99,7 +99,7 @@ This is the foundation of how Bootstrap helps you make a responsive website.
 |Extra large|	xl	|≥1200px|
 |Extra extra large|	xxl	|≥1400px|
 
-You can read [more about breakpoints here](https://getbootstrap.com/docs/5.0/layout/breakpoints/).
+You can read [more about breakpoints here](https://getbootstrap.com/docs/5.1/layout/breakpoints/).
 
 <div style="page-break-after: always"></div>
 
@@ -153,7 +153,7 @@ The image is large and displays at its full size ( we are using https://picsum.p
 
 The image should now scale to fit the the container.
 
-If you want to know more or are unsure how to do this, [check the documentation here](https://getbootstrap.com/docs/5.0/content/images/#responsive-images).
+If you want to know more or are unsure how to do this, [check the documentation here](https://getbootstrap.com/docs/5.1/content/images/#responsive-images).
 
 you should now have:
 
@@ -311,7 +311,7 @@ We know that in Bootstrap each row is 12 units wide. Therefore, to get 2 columns
 
 BUT, in this case there are 4 boxes, 6 * 4 = 24 units!
 
-**- What do you thing happens if you put more than 12 units worth of columns into a row?**
+**- What do you think happens if you put more than 12 units worth of columns into a row?**
 
 If the column widths add up to more than 12, the extra columns will wrap round and appear underneath.
 
@@ -349,11 +349,11 @@ We therefore want to hide one.
 
 **- Change the width of your window and see how the last box disappears**
 
-You can read more out [hiding elements here](https://getbootstrap.com/docs/5.0/utilities/display/).
+You can read more out [hiding elements here](https://getbootstrap.com/docs/5.1/utilities/display/).
 
 You will also notice that the medium wireframe shows 3 boxes in a row.
 
-**- Add another class to the div's to show 3 boxes in a row when the screen is medium size**
+**- Add another class to the first three div's to show 3 boxes in a row when the screen is medium size**
 
 On the first 3 box div's you should now have:
 
@@ -364,7 +364,7 @@ On the first 3 box div's you should now have:
 and on the last box div, you should have:
 
 ```html
-<div class="col-6 col-md-4 d-md-none">
+<div class="col-6 d-md-none">
 ```
 
 
@@ -384,10 +384,6 @@ The last thing to do is to set new columns sizes for large screen. The wireframe
 **- Add another class to all 4 box div's to set the column size for large windows**
 
 ​	HINT: What is 12 / 4?  
-
-​	HINT2: The final box div will look something like
-
-​	`<div class="col-6 col-md-4 col-lg-?">`
 
 <div style="page-break-after: always"></div>
 
