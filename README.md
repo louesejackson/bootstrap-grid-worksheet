@@ -8,7 +8,7 @@ In this worksheet I will be showing you how to use the Bootstraps grid to layout
 
 The first thing we need to do is download the starter code for this worksheet.
 
-I have based this on a [starter template](https://getbootstrap.com/docs/5.1/examples/), replacing the bootstrap css and JavaScript links with cdn links for you, and including a basic html structure for a very simple page. 
+I have based this on a [starter template](https://getbootstrap.com/docs/5.3/examples/), replacing the bootstrap css and JavaScript links with cdn links for you, and including a basic html structure for a very simple page.
 
 To get started, dowload the starter code from blackboard ( it is just one index.html file) and open it in a text editor (I recommend Visual Studio Code)
 
@@ -78,7 +78,7 @@ you should now have:
 
 **- Change the width again to see how the main element now behaves differently.**
 
-You can read more [about containers here](https://getbootstrap.com/docs/5.1/layout/containers/)
+You can read more [about containers here](https://getbootstrap.com/docs/5.3/layout/containers/)
 
 <div style="page-break-after: always"></div>
 
@@ -99,7 +99,7 @@ This is the foundation of how Bootstrap helps you make a responsive website.
 |Extra large|	xl	|≥1200px|
 |Extra extra large|	xxl	|≥1400px|
 
-You can read [more about breakpoints here](https://getbootstrap.com/docs/5.1/layout/breakpoints/).
+You can read [more about breakpoints here](https://getbootstrap.com/docs/5.3/layout/breakpoints/).
 
 <div style="page-break-after: always"></div>
 
@@ -153,7 +153,7 @@ The image is large and displays at its full size ( we are using https://picsum.p
 
 The image should now scale to fit the the container.
 
-If you want to know more or are unsure how to do this, [check the documentation here](https://getbootstrap.com/docs/5.1/content/images/#responsive-images).
+If you want to know more or are unsure how to do this, [check the documentation here](https://getbootstrap.com/docs/5.3/content/images/#responsive-images).
 
 you should now have:
 
@@ -175,7 +175,7 @@ We can also just apply padding to the top by using `pt-` or bottom `pb-` .
 
 **- Add 3 units of padding to the top of the `<p>` element in the header.**
 
-You can learn [more about padding and margins here](https://getbootstrap.com/docs/5.1/utilities/spacing/).
+You can learn [more about padding and margins here](https://getbootstrap.com/docs/5.3/utilities/spacing/#margin-and-padding).
 
 You should now have:
 
@@ -349,7 +349,7 @@ We therefore want to hide one.
 
 **- Change the width of your window and see how the last box disappears**
 
-You can read more out [hiding elements here](https://getbootstrap.com/docs/5.1/utilities/display/).
+You can read more out [hiding elements here](https://getbootstrap.com/docs/5.3/utilities/display/).
 
 You will also notice that the medium wireframe shows 3 boxes in a row.
 
@@ -393,15 +393,15 @@ The very last thing to do is the footer.
 
 **- Make the footer fill the with of the page by giving it the correct container class.**
 
-​	HINT: https://getbootstrap.com/docs/5.1/layout/containers/#fluid-containers
+​	HINT: https://getbootstrap.com/docs/5.3/layout/containers/#fluid-containers
 
 **- Give it a top and bottom padding of 4.**
 
-​	HINT: https://getbootstrap.com/docs/5.1/utilities/spacing/
+​	HINT: https://getbootstrap.com/docs/5.3/utilities/spacing/
 
 **- Fix the footer to the bottom of the screen.**
 
-​	HINT: https://getbootstrap.com/docs/5.1/helpers/position/#fixed-bottom
+​	HINT: https://getbootstrap.com/docs/5.3/helpers/position/#fixed-bottom
 
 **- Give it a background colour of `bg-light` and center the text using `text-center`.**
 
@@ -415,7 +415,7 @@ Give yourself a pat on the back.
 
 You now know the basics of laying out a responsive website using Bootstrap.
 
-If you want to investigate further the [Bootstrap documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/) is a great place to start.
+If you want to investigate further the [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) is a great place to start.
 
 
 
